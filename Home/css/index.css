@@ -28,3 +28,105 @@
     width: 270px;
     height: 100%;
 }
+
+/* 轮播图 star */
+
+.slider {
+    width: 710px;
+    height: 456px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    top: 10px;
+}
+
+.slider img {
+    float: left;
+}
+
+.box {
+    width: 5110px
+}
+
+.btn {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    display: none;
+}
+
+.slider .btn-l, .slider .btn-r {
+    background-color: rgba(0, 0, 0, .2);
+    width: 28px;
+    height: 62px;
+    color: #FFFFFF;
+    text-align: center;
+    font: 400 22px/62px simsun;
+    cursor: pointer;
+}
+
+.list-li {
+    position: absolute;
+    bottom: 10px;
+    left: 35%
+}
+
+.list-li li {
+    cursor: pointer;
+    float: left;
+    width: 18px;
+    height: 18px;
+    background-color: #B1191A;
+    line-height: 18px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* 点缀 */
+.dianzui {
+    width: 100%;
+    height: 4px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+}
+
+.dian {
+    width: 1px;
+    height: 4px;
+    background-color: red
+}
+
+/* 遮罩层 */
+.fugai {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 730px;
+}
+
+.fugai1, .fugai2, .fugai3 {
+    width: 243px;
+    height: 730px;
+    float: left;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.btn-con-l, .btn-con-r {
+    width: 150px;
+    height: 100px;
+}
+
+.btn-con-l img, .btn-con-r img {
+    width: 100%;
+    height: 100%
+}
+
+/* 轮播图 end */

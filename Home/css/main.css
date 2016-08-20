@@ -31,6 +31,7 @@ input,select,textarea{outline: none;border:none;background: none;}
 textarea{resize: none;}
 
 /*清除浮动*/
+.cb{clear: both;}
 .clearfix:after{content: "";display: block;clear: both;}
 .clearfix{zoom: 1;}
 
