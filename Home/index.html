@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-    <div class="topAd fl hide clr-y">
+    <div class="topAd fl clr-y">
         <div class="w pos-r">
             <a href="#" class="fl max"><img class="max" src="http://img11.360buyimg.com/da/jfs/t2944/22/2567554525/78178/5538b2d0/57b575e3N23cd1091.jpg"/></a>
             <a class="fr pos-a topAdBtn">x</a>
@@ -93,10 +93,10 @@
         </div>
     </div>
 </div>
-<div class="focus fl clr-y">
+<div class="focus fl">
     <div class="w">
         <div class="focusLeft fl clr-r"></div>
-        <div class="focusAd fl clr-gn">
+        <div class="focusAd fl">
             <div class="slider">
                 <div class="fugai">
                     <div class="fugai1"></div>
@@ -133,9 +133,31 @@
                 </ul>
             </div>
         </div>
-        <div class="focusRight fl clr-gy"></div>
+        <div class="focusRight fl">
+            <div class="news fl"></div>
+            <div class="lifeServ fl"></div>
+            <div class="right-pic fl clr-b">
+                <a href="#" class="max" target="_blank"><img class="max" src="http://img13.360buyimg.com/da/jfs/t3178/219/224263414/20951/3662cd29/57abf02cN5a7d919c.jpg"/> </a>
+            </div>
+        </div>
     </div>
 </div>
+<div class="todaysBar fl">
+    <div class="w">
+        <div class="todaysLeft fl clr-gy"><img class="max" src="images/todaysAd.png"/> </div>
+        <div class="todaysRight fl clr-gn"><img class="max" src="images/todaysAd01.png"/> </div>
+    </div>
+</div>
+<div class="guessYouBar fl">
+    <div class="w">
+        <div class="guessYouTitle fl">
+            <h2 class="fl">猜你喜欢</h2>
+            <a class="fr" href="#">换一批</a>
+        </div>
+        <div class="guessYou fl"></div>
+    </div>
+</div>
+
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript">
     var i=0;
@@ -148,7 +170,7 @@
         }
         xiaoguo2(i);
         xiaoguo(i);
-    },4000);
+    },5000);
     /*	动作函数*/
     function xiaoguo2(n){
         /*		块一*/
@@ -171,11 +193,11 @@
          .deplay(3000).animate({"backgroundPosition-x":-730*3+'px'},3000)
          .animate({'display':'none'},10)		*/
     }
-    $('.list-li>li').eq(0).css({'background-color':'orange'});
+    $('.list-li>li').eq(0).css({'background-color':'#3e3e3e'});
     function xiaoguo(n){
         var b=n-1;
-        $('.list-li>li').css({'background-color':'#F9263E'});
-        $('.list-li>li').eq(b).css({'background-color':'orange'});
+        $('.list-li>li').css({'background-color':'#B1191A'});
+        $('.list-li>li').eq(b).css({'background-color':'#3e3e3e'});
         $('.dian').animate({'width':730+'px'},2000);
         $('.dian').animate({'width':0+'px'},100);
         $('.box').animate({'margin-left':-n*730+'px'},2000,function(){

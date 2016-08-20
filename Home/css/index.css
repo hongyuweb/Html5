@@ -130,3 +130,76 @@
 }
 
 /* 轮播图 end */
+
+.news{
+    width: 258px;
+    height: 162px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 1px solid #E4E4E4;
+}
+
+.lifeServ{
+    width: 258px;
+    height: 210px;
+    margin-left: 10px;
+    border-left: 1px solid #E4E4E4;;
+    border-right: 1px solid #E4E4E4;;
+    border-bottom: 1px solid #E4E4E4;;
+}
+
+.right-pic{
+    width: 260px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.todaysBar{
+    width: 100%;
+    height: 164px;
+    margin-top: 10px;
+
+}
+
+.todaysLeft{
+    width: 210px;
+    height: 100%;
+}
+
+.todaysRight{
+    width: 1000px;
+    height: 100%;
+}
+
+.guessYouBar{
+    width: 100%;
+    height: 269px;
+    margin-top: 20px;
+}
+
+.guessYouTitle{
+    width: 100%;
+    height: 36px;
+}
+
+.guessYouTitle h2{
+    font: 400 20px/30px "microsoft yahei";
+    padding-right: 228px;
+    background: url(//misc.360buyimg.com/product/home/1.0.0/css/i/homebg.png) 85px -91px;
+}
+
+.guessYouTitle a{
+    padding-right: 25px;
+    height: 18px;
+    margin-top: 8px;
+    background: url(//misc.360buyimg.com/product/home/1.0.0/css/i/homebg.png) -310px -5px no-repeat;
+    color: #666;
+    font: 12px/150% Arial,Verdana,"\5b8b\4f53";
+}
+
+.guessYouTitle a:hover{
+    color: #C81818;
+    background-position:-310px -29px;
+}
+
