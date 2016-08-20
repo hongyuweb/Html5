@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+/**
+ * 首页CSS样式表
+ * Created by PhpStorm.
+ * User: Shadow
+ * Date: 2016-05-18 0018
+ * Time: 18:18
+ * Http: www.hongyuvip.com
+ */
+
+.focus{
+    width: 100%;
+    height: 466px;
+}
+
+.focusLeft{
+    width: 210px;
+    height: 100%;
+}
+
+.focusAd{
+    width: 730px;
+    height: 100%;
+}
+
+.focusRight{
+    width: 270px;
+    height: 100%;
+}

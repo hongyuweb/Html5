@@ -52,8 +52,13 @@ textarea{resize: none;}
 .w{width: 1210px;margin: 0 auto;height: 100%}
 .max{width: 100%;height: 100%;}
 
+
+/****************** Change ********************/
+
 /*色调*/
-.clr-red{background-color: red;}
-.clr-blue{background-color: blue;}
+.clr-r{background-color: red;}
+.clr-b{background-color: blue;}
 .clr-y{background-color: #fd6500;}
-.clr-g{background-color: green;}
+.clr-gn{background-color: green;}
+.clr-f{background-color: #F5F5F5;}
+.clr-gy{background-color: gray;}
