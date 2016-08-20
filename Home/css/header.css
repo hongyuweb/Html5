@@ -87,7 +87,7 @@
     line-height: 31px \9;
     color: rgb(51, 51, 51);
     border: 2px solid #C40000;
-    font-family: "Microsoft YaHei";
+    font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
 }
 
 .searchBtn {
@@ -97,7 +97,7 @@
     color: #FFF;
     background-color: #C40000;
     cursor: pointer;
-    font-family: "Microsoft YaHei";
+    font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
 }
 
 .searchKey{
