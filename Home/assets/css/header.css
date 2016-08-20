@@ -1,0 +1,214 @@
+/**
+ * 首页头部CSS样式表
+ * Created by PhpStorm.
+ * User: Shadow
+ * Date: 2016-05-18 0018
+ * Time: 18:18
+ * Http: www.hongyuvip.com
+ */
+
+.topBar{
+    width: 100%;
+    height: 32px;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.topBar a{
+    color: #6C6C6C;
+    line-height: 32px;
+}
+
+.topBar a:hover{
+    color: #C81818;
+}
+
+.topBar li{
+    float: left;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background: #DDD;
+    overflow: hidden;
+    margin: 12px;
+}
+
+.topAd{
+    width: 100%;
+    height: 80px;
+}
+
+.topAdBtn{
+    width: 12px;
+    height: 12px;
+    line-height: 10px;
+    padding: 3px;
+    cursor: pointer;
+    top: 5px;
+    right: 5px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:rgba(0,0,0,0.2);
+}
+
+.topAdBtn:hover{
+    background-color:rgba(0,0,0,0.3);
+}
+
+.logoBar{
+    width: 100%;
+    height: 60px;
+    padding: 25px 0;
+}
+
+.logoIco{
+    width: 360px;
+    height: 60px;
+}
+
+.searchBox{
+    width: 539px;
+    height: 60px;
+}
+
+.shopBox{
+    width: 311px;
+    height: 60px;
+}
+
+.searchText {
+    width: 455px;
+    height: 31px;
+    padding: 0 5px;
+    font-size: 14px;
+    background-color: #FFF;
+    line-height: 31px \9;
+    color: rgb(51, 51, 51);
+    border: 2px solid #C40000;
+    font-family: "Microsoft YaHei";
+}
+
+.searchBtn {
+    width: 70px;
+    height: 35px;
+    font-size: 16px;
+    color: #FFF;
+    background-color: #C40000;
+    cursor: pointer;
+    font-family: "Microsoft YaHei";
+}
+
+.searchKey{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+}
+
+.searchKey a{
+    color: #666666;
+    padding-right: 10px;
+}
+
+.searchKey a:hover{
+    color: #C81818;
+}
+
+.shopCar{
+    width: 137px;
+    height: 33px;
+    background-color: #F9F9F9;
+    border: 1px solid #DDDDDD;
+    margin-right: 68px;
+    text-align: center;
+    line-height: 33px;
+}
+
+.shopCar a{
+    padding: 0 15px 0 33px;
+}
+
+.carIl{
+    top: 7px;
+    width: 18px;
+    height: 16px;
+    display: block;
+    overflow: hidden;
+    left: 15px;
+    background: url(//misc.360buyimg.com/jdf/1.0.0/unit/globalImages/1.0.0/jd2015img.png) 0 -56px no-repeat;
+}
+
+.carIr{
+    margin-right: 10px;
+    font: 400 13px/13px simsun;
+    color: #999;
+    line-height: 33px;
+}
+
+.carCount{
+    top: -4px;
+    left: 100px;
+    display: inline-block;
+    padding: 1px 2px;
+    font: 12px/100% Arial,Verdana,"\5b8b\4f53";
+    color: #FFF;
+    background-color: #C81623;
+    border-radius: 7px 7px 7px 0;
+    min-width: 12px;
+    text-align: center;
+}
+
+.navBar{
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #B1191A;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: "Microsoft YaHei",tahoma,arial,"Hiragino Sans GB","\5b8b\4f53",sans-serif;
+}
+
+.category{
+    width: 210px;
+    height: 100%;
+    background: #B1191A;
+    text-align: center;
+}
+
+.category a{
+    padding: 0 10px;
+    color: #FFF;
+}
+
+.nav{
+    width: 766px;
+    height: 100%;
+    overflow: hidden;
+    white-space:nowrap;
+}
+
+.nav li{
+    float: left
+}
+
+.nav a{
+    color: #333;
+    float: left;
+    padding: 0 20px;
+    text-align: center;
+    font: 400 16px/40px "microsoft yahei";
+}
+
+.nav a:hover{
+    color: #C81818;
+}
+
+.nav ul li:first-child{
+    margin-left: 20px;
+}
+
+.activityAd{
+    width: 200px;
+    height: 55px;
+    top: -15px;
+}
