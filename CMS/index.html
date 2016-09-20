@@ -1,0 +1,617 @@
+<!doctype html>
+<html>
+<head>
+    <meta property="qc:admins" content="2540661577675101615645166375"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="renderer" content="webkit">
+    <title>鸿宇云端-永久免费且功能强大的微信第三方公众号营销服务平台</title>
+    <meta name="description" content="鸿宇云端是首批从事微信公众号开发的专业免费微信第三方平台，目前已经拥有超过数十万商家使用，为商家提供包括微官网、微预约、刮刮卡、微商城等在内的超过50个完全免费的微信公众号基础功能模块以及各类公众号增值营销服务。"/>
+    <meta name="keywords" content="鸿宇云端,微信云端,微信公众平台,微信第三方平台,微信营销平台,免费微信平台,微信云,微信营销,微信代运营,微信托管,微行业,微网站,微商城,微营销,微信定制开发"/>
+    <link href="/favicon.ico" rel="shortcut icon"/>
+    <link href="/favicon.ico" rel="icon"/>
+    <link rel="stylesheet" href="css/Common.css?v1.0">
+    <link rel="stylesheet" href="css/Header.css?v1.1">
+    <link rel="stylesheet" href="css/Home.css?v1.1">
+    <link rel="stylesheet" href="css/Footer.css?v1.0">
+    <script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+</head>
+<body>
+<!-------------------------------------时间计算------------------------------------->
+<script>
+    function GetRTime() {
+        var EndTime = new Date('2014/02/01 00:00:00');
+        var NowTime = new Date();
+        var t = NowTime.getTime() - EndTime.getTime();
+        var d = Math.floor(t / 1000 / 60 / 60 / 24);
+        var h = Math.floor(t / 1000 / 60 / 60 % 24);
+        var m = Math.floor(t / 1000 / 60 % 60);
+        var s = Math.floor(t / 1000 % 60);
+
+        document.getElementById("t_d").innerHTML = d + "";
+        document.getElementById("t_h").innerHTML = h + "";
+        document.getElementById("t_m").innerHTML = m + "";
+        document.getElementById("t_s").innerHTML = s + "";
+    }
+    setInterval(GetRTime, 0);
+</script>
+<!----------------------------------------TopNav---------------------------------------->
+<div class="header">
+    <div id="logo">
+        <a href="http://www.hongyuvip.com"><img src="images/yunduan_logo.png" alt="微信第三方平台-鸿宇云端LOGO图片" width="100%" height="100%"></a>
+    </div>
+    <ul id="Nav">
+        <li><a class="Nav_current" href="/">首页</a></li>
+
+        <li><a href='/web/a/xinwengonggao/'>公告</a></li>
+
+        <li><a href='/web/a/gongnen/' rel='dropmenu1'>功能</a></li>
+
+        <li><a href='/web/a/jiaji_jiancai/' rel='dropmenu89'>案例</a></li>
+
+        <li><a href='/web/a/fuwu/'>服务</a></li>
+
+        <li><a href='/web/a/bangzhu/'>帮助</a></li>
+
+        <li><a href='/web/a/guanyu/'>关于</a></li>
+
+        <li><a href="http://bbs.hongyuvip.com" target="_blank">咨询</a></li>
+    </ul>
+    <div id="login_box">
+        <a class="login_btn" href="http://www.hongyuvip.com/login.html">登录</a>
+        <a class="reg_btn" href="http://www.hongyuvip.com/reg.html">注册</a>
+    </div>
+</div>
+<!----------------------------------------悬浮窗---------------------------------------->
+<div id="window">
+    <dl class="window_btn">
+        <dd id="toTop"></dd>
+        <dd class="online"></dd>
+        <dd class="QR_box"></dd>
+    </dl>
+    <dl class="popup">
+        <dt id="popup_1">
+        <div class="popup_text">
+            <span>咨询时间：周一至周五</span>
+
+            <h2>09:00-12:00 13:00-16:00</h2>
+            <!--<a></a><a></a>-->
+
+            <a target="_blank" href="https://static.meiqia.com/dist/standalone.html?eid=9739">
+                <img border="0" src="images/zixun.png" alt="点击这里给我发消息" title="点击这里给我发消息"/>
+            </a>
+            <!--<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=21004162&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:21004162:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>-->
+
+        </div>
+        <ul>
+            <li><h2 class="green">使用咨询：</h2><h2>0574-63013639-801</h2></li>
+            <li><h2 class="green">技术反馈：</h2><h2>0574-63013639-802</h2></li>
+            <li><h2 class="green">商务合作：</h2><h2>0574-55113331</h2></li>
+            <li><h2 class="green">找回账号：</h2><h2>0574-55113339</h2></li>
+        </ul>
+        </dt>
+        <dt id="popup_2">
+        <h2>关注官方微信</h2><img src="images/QR_code.png" alt="鸿宇云端官方微信公众号二维码" width="160" width="160"></dt>
+    </dl>
+</div>
+<script>
+
+</script>
+<!----------------------------------------Banner---------------------------------------->
+<script src="js/xnyfreescroll.js"></script>
+<script src="js/home.js"></script>
+<div id="banner-slider">
+    <div id="slider-back">
+        <p style="max-width: 100%; opacity: 1; background-color:#3ec282; background-image:url(images/b_bg_1.png);"></p>
+
+        <p style="max-width: 100%; opacity: 0; background-color:#3297de; background-image:url(images/b_bg_2.png);"></p>
+
+        <p style="max-width: 100%; opacity: 0; background-color:#3297de; background-image:url(images/b_bg_3.png);"></p>
+
+        <p style="max-width: 100%; opacity: 0; background-color:#3ec282; background-image:url(images/b_bg_4.png);"></p>
+
+        <p style="max-width: 100%; opacity: 0; background-color:#3297de; background-image:url(images/b_bg_5.png);"></p>
+
+    </div>
+    <!-- banner文字-->
+    <div class="slider-main">
+        <!---------------1--------------->
+        <div class="banner-txt" style="display: block;">
+            <div class="slider-txt" data-start_top="20" data-to_top="+=40" data-start_left="0" data-to_left="0"
+                 style="opacity: 1; top: 60px; left: 0;">
+                <div class="banner-txt-vip-1">
+                    <img src="images/b_bg_1_1.png">
+                    <span class="banner-title">我的公众号我来掌控</span>
+                </div>
+                <div class="banner-txt-vip-2"></div>
+            </div>
+            <a href="http://www.hongyuvip.com/reg.html" class="banner-btn1" target="_blank" data-start_top="386" data-to_top="-=20" data-start_left="535" data-to_left="535" style="opacity: 1; top: 366px; left: 535px;">立即注册</a>
+        </div>
+        <!---------------2--------------->
+        <div class="banner-txt" data-target="_blank" style="display:none;">
+            <div class="slider-txt" data-start_top="0" data-to_top="0" data-start_left="40" data-to_left="0" style="opacity: 0; top: 0; left: 0;">
+                <div class="banner-txt-hk-1">
+                    <span class="banner-title">自助建站,亲手打造</span>
+                    <div class="b_title_1"><a>全网最多基础模块</a></div>
+                    <div class="b_title_2">
+                        <span>便捷舒适的创建环境</span>
+                        <span>海量免费模板随意选</span>
+                        <span>持续更新紧跟互联网</span>
+                        <span>运行稳定值得信赖</span>
+                    </div>
+                </div>
+                <div class="banner-txt-bj-2"><img src="images/b_content_2.png"></div>
+            </div>
+            <a href="http://www.hongyuvip.com/web/a/gongnen/" class="banner-btn2" target="_blank" data-start_top="366" data-to_top="366" data-start_left="206" data-to_left="186" style="opacity: 0; top: 366px; left: 186px;">了解更多</a>
+        </div>
+        <!---------------3--------------->
+        <div class="banner-txt" style="display:none;">
+            <div class="slider-txt" data-start_top="-40" data-to_top="+=40" data-start_left="0" data-to_left="0"
+                 style="opacity: 0; top: 0; left: 0;">
+                <div class="banner-txt-hk-1">
+                    <img src="images/b_content_3.png">
+                </div>
+                <div class="banner-txt-bj-2">
+                    <span class="banner-title">微支付</span>
+
+                    <div class="b_title_1"><a>无需认证 无需申请 无需开通</a></div>
+                    <div class="b_title_2"><a>无论订阅号、认证订阅号、服务号，使用平台<br>支付均可以实现在线交易，完美替代微信支付</a></div>
+                </div>
+            </div>
+            <a href="http://www.hongyuvip.com/web/a/jichugongnen/zhifuguanli/" class="banner-btn2" target="_blank" data-start_top="366" data-to_top="366" data-start_left="866" data-to_left="886" style="opacity: 0; top: 366px; left: 886px;">了解更多</a>
+        </div>
+        <!---------------4--------------->
+        <div class="banner-txt" data-target="_blank" style="display:none;">
+            <div class="slider-txt" data-start_top="0" data-to_top="0" data-start_left="40" data-to_left="0" style="opacity: 0; top: 0; left: 0;">
+                <div class="banner-txt-hk-1">
+                    <span class="banner-title">超级投票v5.0</span>
+                    <div class="b_title_1"><a>全面设置，随心所欲</a></div>
+                    <div class="b_title_2"><a>规则，奖品，模板，统计，菜单和底部设置统<br>统由自己掌控,粉丝成倍增长停不下来！</a></div>
+                </div>
+                <div class="banner-txt-bj-2"><img src="images/b_content_4.png"></div>
+            </div>
+            <a href="http://www.hongyuvip.com/web/a/chaojitoupiao/" class="banner-btn2" target="_blank"
+               data-start_top="366" data-to_top="366" data-start_left="206" data-to_left="186"
+               style="opacity: 0; top: 366px; left: 186px;">了解更多</a>
+        </div>
+        <!---------------5--------------->
+        <div class="banner-txt" data-target="_blank" style="display:none;">
+            <div class="slider-txt" data-start_top="0" data-to_top="0" data-start_left="40" data-to_left="0"
+                 style="opacity: 0; top: 0; left: 0;">
+                <div class="banner-txt-hk-1">
+                    <span class="banner-title">微官网</span>
+                    <div class="b_title_1"><a>酷炫门面，印象满分</a></div>
+                    <div class="b_title_2"><a>微信客户端形象门户，方便快捷式官网，门面<br>的颜值担当，粉丝增长快人一步！</a></div>
+                </div>
+                <div class="banner-txt-bj-2"><img src="images/b_content_5.png"></div>
+            </div>
+            <a href="http://www.hongyuvip.com/web/a/weiguanwang/" class="banner-btn2" target="_blank" data-start_top="366" data-to_top="366" data-start_left="206" data-to_left="186" style="opacity: 0; top: 366px; left: 186px;">了解更多</a>
+        </div>
+        <!---------------滑块--------------->
+        <ul id="slider-btn" class="pie-for-children">
+            <li class="slider-active"></li>
+            <li class=""></li>
+            <li class=""></li>
+            <li class=""></li>
+            <li class=""></li>
+        </ul>
+    </div>
+    <!----------------------------------------新闻---------------------------------------->
+</div>
+<div class="news-bar">
+    <div class="auto">
+        <div class="news-left">
+            <div class="news-list">
+
+
+                <!--
+                                    <p style="opacity: 1; top: 0px;" class="news--current">
+                                        <a href="http://www.hongyuvip.com/web/a/xinwengonggao/2016/0202/61.html" target="_blank">平台代收《平台支付提现规则、费率标准》说明（修订V3）</a>
+                                        <b class="news-date">2016-7-8</b>
+                                    </p>
+                -->
+                <p style="opacity: 0; top: -60px;">
+                    <a href='/web/a/xinwengonggao/2016/0810/68.html'>关于平台支付提现手续费的调整公告</a>
+                    <b class="news-date">08-10</b>
+                </p>
+
+                <p style="opacity: 0; top: -60px;">
+                    <a href='/web/a/xinwengonggao/2016/0202/61.html'>平台代收《平台支付提现规则、费率标准》说明（修订V4）</a>
+                    <b class="news-date">08-10</b>
+                </p>
+
+            </div>
+        </div>
+        <div class="news-right">
+            <span id="prev-news"></span>
+            <span id="next-news"></span>
+        </div>
+    </div>
+</div>
+<!----------------------------------------使用情况---------------------------------------->
+
+<div class="user">
+    <div class="user_left">
+        <div class="user_1"><img src="images/weixunyunduan.png" alt="微信第三方平台"></div>
+        <div class="user_2"><span>已稳定运营<a id="t_d"></a>天<a id="t_h"></a>小时<a id="t_m"></a>分<a id="t_s"></a>秒</span>
+        </div>
+    </div>
+    <div class="user_right"><span>现已有<a>11</a>个国家和地区及<a>2216</a>个城市<br>共有<a>
+        <script src="http://www.hongyuvip.com/banquan/yonghu.html" type="text/javascript"></script>
+    </a>个公众号企业商家选择了鸿宇云端</span></div>
+</div>
+
+<!----------------------------------------优势---------------------------------------->
+
+<dl class="advantage">
+    <dd>
+        <div class="advantage_icon"><img src="images/advantage_02.png" alt="免费微信第三方平台优势图片一" width="120px" height="120px"></div>
+        <div class="advantage_txt">
+            <h1>自由操作</h1>
+
+            <h2>模块化操作<br>定义您自己的内容</h2>
+        </div>
+    </dd>
+    <dd>
+        <div class="advantage_icon"><img src="images/advantage_03.png" alt="永久免费微信第三方平台优势图片二" width="120px" height="120px"></div>
+        <div class="advantage_txt">
+            <h1>免费使用</h1>
+
+            <h2>海量免费功能<br>无限制使用</h2>
+        </div>
+    </dd>
+    <dd>
+        <div class="advantage_icon"><img src="images/advantage_04.png" alt="免费微信营销平台数据安全图片" width="120px" height="120px"></div>
+        <div class="advantage_txt">
+            <h1>数据安全</h1>
+
+            <h2>全站采用云A+架构<br>多个RDS云数据库实时存储</h2>
+        </div>
+    </dd>
+    <dd>
+        <div class="advantage_icon"><img src="images/advantage_05.png" alt="微信免费第三方平台营销服务用户数量图片" width="120px"
+                                         height="120px"></div>
+        <div class="advantage_txt">
+            <h1>值得信赖</h1>
+
+            <h2>首批微信第三方服务平台<br>活跃用户最多的平台之一</h2>
+        </div>
+    </dd>
+</dl>
+
+<!----------------------------------------功能---------------------------------------->
+
+<div class="title_box">
+    <div class="title">
+        <h2>微信关注“鸿宇云端”才能体验哦</h2>
+        <span class="title_1">常用功能</span>
+
+        <div class="title_More">
+            <a href="http://www.hongyuvip.com/web/a/gongnen/weiwangzhan/weiguanwang/">More</a>
+        </div>
+    </div>
+</div>
+<dl class="function">
+    <dd>
+        <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weizhan/">
+            <dt style="background:#7cb1e6;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WZ.png"
+                                                                                          alt="微站功能" width="140"
+                                                                                          height="140"></dt>
+            <dt>
+            <h3>微站</h3>
+            <h4>扫描二维码马上体验</h4>
+    </dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat"></div>
+<h1>微站</h1>
+
+<h2>手机上的PC官网<br>独立链接随心分享</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weiguanwang/">
+        <dt style="background:#3ec282;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WGW.png"
+                                                                                      alt="免费微官网功能" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>微官网</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -130px 0"></div>
+<h1>微官网</h1>
+
+<h2>酷炫微官网<br>微信上的形象门户</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weiyuyue/">
+        <dt style="background:#f5849e;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WYY.png"
+                                                                                      alt="免费微预约功能" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>微预约</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -260px 0"></div>
+<h1>微预约</h1>
+
+<h2>在线预订预约<br>帮您一键搞定</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/gaojihuiyuanka/">
+        <dt style="background:#facc7d;width:200px;height:200px;overflow:hidden;"><img src="images/QR_HYK.png"
+                                                                                      alt="免费会员卡功能" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>会员卡</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -390px 0"></div>
+<h1>会员卡</h1>
+
+<h2>代替传统实物卡<br>轻松出行不怕丢</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/dazhuanpan/">
+        <dt style="background:#db4d4d;width:200px;height:200px;overflow:hidden;"><img src="images/QR_DZP.png"
+                                                                                      alt="免费微信大转盘" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>大转盘</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -520px 0"></div>
+<h1>大转盘</h1>
+
+<h2>快乐大转盘<br>幸运落谁家</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/guaguaka/">
+        <dt style="background:#f5849e;width:200px;height:200px;overflow:hidden;"><img src="images/QR_code.png"
+                                                                                      alt="刮刮卡演示" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>刮刮卡</h3>
+        <h4>公众输入刮刮卡</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -650px 0"></div>
+<h1>刮刮卡</h1>
+
+<h2>开展在线刮奖活动<br>吸引顾客线下消费</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weituangou/">
+        <dt style="background:#f58484;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WTG.png"
+                                                                                      alt="微团购功能演示" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>微团购</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat 0 -130px"></div>
+<h1>微团购</h1>
+
+<h2>还怕库存淡旺季<br>安啦，我有拼团购</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weixianchang/">
+        <dt style="background:#7cb1e6;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WXC.png"
+                                                                                      alt="微现场功能演示图" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>微现场</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -130px -130px;"></div>
+<h1>微现场</h1>
+
+<h2>大型晚会怕冷场？<br>微现场为您带气氛</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weijiudian/">
+        <dt style="background:#8ee68e;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WJD.png"
+                                                                                      alt="免费微酒店功能" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>微酒店</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -260px -130px"></div>
+<h1>微酒店</h1>
+
+<h2>线上预约<br>线下支付</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weiwaimai/">
+        <dt style="background:#f58484;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WWM.png" alt="微外卖"
+                                                                                      width="140" height="140"></dt>
+        <dt>
+        <h3>微外卖</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -390px -130px"></div>
+<h1>微外卖</h1>
+
+<h2>在线餐饮点菜服务<br>微信支付可在线支付</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.leyunxiao.com" target="_blank">
+        <dt style="background:#facc7d;width:200px;height:200px;overflow:hidden;"><img src="images/QR_LYX.png"
+                                                                                      alt="乐云销免费三级分销微店" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>乐云销</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -520px -130px"></div>
+<h1>乐云销</h1>
+
+<h2>移动社交营销引导者<br>为企业解决O2O落地方案</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/chaojitoupiao/">
+        <dt style="background:#3ec282;width:200px;height:200px;overflow:hidden;"><img src="images/QR_CJTP.png"
+                                                                                      alt="微信超级投票功能" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>超级投票</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -650px -130px"></div>
+<h1>超级投票</h1>
+
+<h2>自主参赛报名<br>粉丝增长停不下来</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/gongnen/weiwangzhan/weiliuyan/">
+        <dt style="background:#a3a28f;width:200px;height:200px;overflow:hidden;"><img src="images/QR_code.png"
+                                                                                      alt="自定义菜单" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>自定义菜单</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat 0 -260px"></div>
+<h1>自定义菜单</h1>
+
+<h2>超级自定义菜单<br>轻松设置</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weishangcheng/">
+        <dt style="background:#f5849e;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WSC.png"
+                                                                                      alt="免费微商城功能" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>微商城</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -130px -260px"></div>
+<h1>微商城</h1>
+
+<h2>小微信也有大商城<br>电商轻松走入微信</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weimendian/">
+        <dt style="background:#7cb1e6;width:200px;height:200px;overflow:hidden;"><img src="images/QR_code.png" alt="微门店"
+                                                                                      width="140" height="140"></dt>
+        <dt>
+        <h3>微门店</h3>
+        <h4>公众号发送位置信息</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -260px -260px"></div>
+<h1>微门店</h1>
+
+<h2>适用于多门店、多服务点<br>让客户更方便的找到你</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weihuati/">
+        <dt style="background:#8ee68e;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WHT.png"
+                                                                                      alt="微话题模块" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>微话题</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -390px -260px"></div>
+<h1>微话题</h1>
+
+<h2>微信上的休闲吧<br>交流互动话品牌</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/youhuiquan/">
+        <dt style="background:#f58484;width:200px;height:200px;overflow:hidden;"><img src="images/QR_YHQ.png"
+                                                                                      alt="免费微信优惠券" width="140"
+                                                                                      height="140"></dt>
+        <dt>
+        <h3>优惠券</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -520px -260px"></div>
+<h1>优惠券</h1>
+
+<h2>电子优惠券利益客户<br>又节约营销预算</h2>
+</dd>
+<dd>
+    <dl class="QR"><a href="http://www.hongyuvip.com/web/a/weidiaoyan/">
+        <dt style="background:#facc7d;width:200px;height:200px;overflow:hidden;"><img src="images/QR_WDY.png" alt="微调研"
+                                                                                      width="140" height="140"></dt>
+        <dt>
+        <h3>微调研</h3>
+        <h4>扫描二维码马上体验</h4>
+</dt></a>
+</dl>
+<div style="background:url(images/function_icon.png) no-repeat -650px -260px"></div>
+<h1>微调研</h1>
+
+<h2>无需人力电子调研<br>掌握市场第一首数据</h2>
+</dd>
+</dl>
+<!----------------------------------------客户---------------------------------------->
+<div class="title_box">
+    <span class="title_1">我们的客户</span>
+</div>
+<div id="customer">
+    <div id="indemo">
+        <div id="customer_1">
+            <a><img src="images/logo_1.png" title="江油市广播电视台" border="0"/></a>
+            <a><img src="images/logo_2.png" title="国泰君安证券股份有限公司甘肃分公司" border="0"/></a>
+            <a><img src="images/logo_3.png" title="广西裕达集团有限公司" border="0"/></a>
+            <a><img src="images/logo_4.png" title="济川药业集团有限公司" border="0"/></a>
+            <a><img src="images/logo_5.png" title="广联达软件股份有限公司" border="0"/></a>
+            <a><img src="images/logo_6.png" title="华港燃气集团有限公司" border="0"/></a>
+            <a><img src="images/logo_7.png" title="温州市第二十三中学" border="0"/></a>
+            <a><img src="images/logo_8.png" title="贝因美杭州婴童食品营销有限公司" border="0"/></a>
+            <a><img src="images/logo_9.png" title="长城宽带网络服务有限公司韶关分公司" border="0"/></a>
+            <a><img src="images/logo_10.png" title="山西长子农村商业银行股份有限公司" border="0"/></a>
+            <a><img src="images/logo_11.png" title="江西省广播电视网络传输有限公司" border="0"/></a>
+        </div>
+        <div id="customer_2"></div>
+    </div>
+</div>
+<!----------------------------------------Footer---------------------------------------->
+<div class="footer">
+    <div class="footer_box">
+        <div class="footer_logo"><img src="images/yunduan_logo.png" alt="微信第三方平台底部LOGO" width="228" height="60px;">
+        </div>
+        <div class="about">
+            <div class="footer_function">
+                <a href="http://www.hongyuvip.com/web/a/guanyu/">了解我们</a>
+                <a href="http://bbs.hongyuvip.com" target="_blank">咨询中心</a>
+                <a href="http://www.hongyuvip.com" target="_blank">微云秀</a>
+                <a href="http://www.hongyuvip.com" target="_blank">乐云销</a>
+                <a href="http://www.hongyuvip.com/" target="_blank">图文排版助理</a>
+                <a class="last" href="http://www.hongyuvip.com/" target="_blank">二维码助理</a>
+                <!--<a href="">渠道招商</a>
+                <a href="">申请代理</a>-->
+            </div>
+            <div class="link">
+                <!--<h2>友情链接：</h2>
+                <a href="">鸿宇云端</a><a>、</a>-->
+            </div>
+            <div><h2>Copyright © 2013-2016 www.hongyuvip.com. All Rights Reserved 鸿宇云端</h2></div>
+            <div>
+                <h2>鸿宇技术有限公司</h2>
+                <img src="images/beian.png"/><a href="http://www.hongyuvip.com/portal/registerSystemInfo?recordcode=33028202000025" target="_blank">浙公安备88888888号</a>
+                <img src="images/gongxin.png"/><a href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank">贵ICP备88888888号</a>    
+                <!--网站统计代码-->
+                <!--<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5861172'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s5.cnzz.com/stat.php%3Fid%3D5861172%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>-->
+            </div>
+        </div>
+        <div class="QR_img"><img src="images/QR_code.png" alt="免费微信第三方平台底部二维码" width="120" height="120"></div>
+    </div>
+</div>
+</body>
+</html>

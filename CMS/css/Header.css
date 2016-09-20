@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+.headertop{ width:100%; height:auto; margin:0 auto; clear:both;}
+.header{
+	width:1200px;
+	height:70px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#logo{
+	width:228px;
+	height:60px;
+	margin-top:6px;
+	float:left;
+}
+#Nav{
+	height:70px;
+	line-height:63px;
+	float:left;
+	padding-left:30px;
+	overflow:hidden;
+
+}
+#Nav li{
+	float:left;
+	text-align:center;
+	margin:0 10px;
+}
+#Nav .Nav_current{
+	background:#fff;
+	border-top:4px #3ec282 solid;
+	color:#3ec282;
+}
+#Nav li a{
+	height:70px;
+	width:70px;
+	border-top:4px #f5faf7 solid;
+	color:#404040;
+}
+#Nav li a:hover{
+	background:#fff;
+	border-top:4px #3ec282 solid;
+	color:#3ec282;
+	box-shadow:0 0 5px rgba(0,0,0,.1);
+}
+#login_box{	
+	float:right;
+	padding-top:20px;
+	text-align:center;
+	color:#3ec282;
+	margin-right:10px;
+}
+#login_box a{
+	width:48px;
+	height:28px;
+	line-height:28px;
+	border-radius:5px;
+	margin-left:5px;
+	color:#999;
+}
+#login_box .login_btn{
+	color:#3ec282;
+	border:1px solid #3ec282;
+	background:url(../images/login_bg_1.png) no-repeat center\9;   /*IE6、IE7、IE8*/
+	
+}
+#login_box .reg_btn{
+	border:1px solid #f5faf7;
+	color:#999;
+}
+#login_box a:hover{
+	color:#3ec282;
+	background:#fff;
+	border:1px solid #3ec282;
+}
+
+/*************************浮窗************************/
+#window{
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	z-index:999;
+}
+#window .window_btn{
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+#window .window_btn dd{
+	cursor:pointer;
+	margin-bottom:5px;
+}
+#window .window_btn #toTop{
+	display:none;
+	width:45px;
+	height:40px;
+	background:url(../images/window_icon.png) no-repeat -45px 0;
+}
+#window .window_btn .online {
+	width:45px;
+	height:36px;
+	background:url(../images/window_icon.png) no-repeat -45px -45px;
+}
+#window .window_btn .QR_box {
+	width:45px;
+	height:36px;
+	background:url(../images/window_icon.png) no-repeat -45px -86px;
+}
+#window .window_btn #toTop:hover{
+	background:url(../images/window_icon.png) no-repeat 0 0;
+}
+#window .window_btn .online:hover{
+	background:url(../images/window_icon.png) no-repeat 0px -45px;
+}
+#window .window_btn .QR_box:hover{
+	background:url(../images/window_icon.png) no-repeat 0 -86px;
+}
+#window .popup{
+	padding-top:8px;
+	position:absolute;
+	right:45px;
+	bottom:0;
+}
+#popup_1, #popup_2{
+	width:218px;
+	height:210px;
+	border:1px solid rgba(0,0,0,.2);
+	border-radius:5px;
+	background:#fff;
+	display:none;
+}
+#popup_2{
+	text-align:center;
+}
+#popup_2 h2{
+	padding-top:10px;
+}
+#window .popup .popup_text{
+	height:94px;
+	text-align:center
+}
+#window .popup .popup_text span{
+	color:#3ec282;
+	font:24px;
+	line-height:28px;
+}
+#window .popup .popup_text a{
+	width:76px;
+	height:22px;
+/**	background:#000;**/
+	margin-top:7px;
+}
+#window .popup ul{
+	position:absolute;
+	bottom:0;
+}
+#window .popup ul li{
+	padding-left:10px;
+	width:218px;
+	line-height:30px;
+	border-top:1px solid #ccc;
+}
+#window .popup ul li h2{
+	display:inline;
+	font-size:14px;
+	color:#666;
+}
+#window .popup ul li .green{
+	font-size:12px;
+	color:#3ec282
+}
